@@ -1,5 +1,5 @@
-Moralis.initialize("W9CCwwg1nQQ1KFrqWYx8YY1nojrxTINwhMHLwYHD")// Application ID
-Moralis.serverUrl = "https://0iooker5q9ww.usemoralis.com:2053/server"// Server URL
+Moralis.initialize("")// Application ID
+Moralis.serverUrl = ""// Server URL
 var web3;
 checkWeb3();
 
