@@ -44,7 +44,7 @@ function getNetworkName(chainID){
 }
 
 function monitorNetwork(){
-    Moralis.Web3.onChainChanged(function(){
+    Moralis.onChainChanged(function(){
         window.location.reload()
     })
 }
